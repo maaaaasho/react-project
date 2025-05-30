@@ -9,7 +9,7 @@ const Contact = () => {
           <h3 data-aos='zoom-in' className="text-3xl  font-semibold text-gray-900 dark:text-white mb-10 md:ml-80 ml-24 inline border-b-4 border-pink-600 ">
             Contact Me
           </h3>
-          <form data-aos='fade-up'
+          <form action="https://getform.io/f/ayvykxmb" method="POST" data-aos='fade-up'
             className="flex flex-col gap-6 mt-10"
             onSubmit={(e) => {
               e.preventDefault();
