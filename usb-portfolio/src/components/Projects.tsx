@@ -19,7 +19,7 @@ const Projects = () => {
             <div  data-aos='fade-up'
               key={index}
               style={{ backgroundImage: `url(${item.image})` }}
-              className="shadow-lg shadow-[#040c16] rounded-md  bg-contain  bg-center  bg-no-repeat relative  transition-transform duration-300 "
+              className="shadow-lg shadow-[#040c16] rounded-md  bg-cover  bg-center  bg-no-repeat relative  transition-transform duration-300 "
             >
               <div className="py-1 opacity-0 hover:opacity-100 duration-300 hover:bg-blue-600 w-full h-full rounded-lg">
                 <p className="pb-4 text-center text-2xl font bold text-white tracking-wider ">

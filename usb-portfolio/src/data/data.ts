@@ -15,7 +15,7 @@ import hasim from "../assets/projects/hasim.jpeg";
 import shopcart from "../assets/projects/shopcart.avif";
 import beach from "../assets/projects/beach.jpeg";
 import shoe from "../assets/projects/s.jpeg";
-import reales from "../assets/projects/reales.jpeg";
+import carr from "../assets/projects/carr.jpeg";
 import car from "../assets/projects/car.jpeg";
 import type { Project, Skill } from "../types/types";
 
@@ -73,7 +73,7 @@ export const projects: Project[] = [
   {
     id: 1,
     name: "real-estate",
-    image: reales,
+    image: RealEst,
     github: "https://github.com/oumers535/real-estate.git",
     live: "https://usb-real-estate.netlify.app/",
   },
@@ -130,7 +130,7 @@ export const projects: Project[] = [
   {
     id: 6,
     name: "Car Show",
-    image: RealEst,
+    image: carr,
     github: "https://github.com/oumers535/driver.git",
     live: "https://usb-driver.netlify.app/",
   },
