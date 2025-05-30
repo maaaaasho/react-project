@@ -1,9 +1,5 @@
-interface SkillCardProps {
-  skill: {
-    title: string;
-    Image: string;
-  };
-}
+import type { SkillCardProps } from "../types/types";
+
 const SkillCard = ({skill}:SkillCardProps) => {
   return (
     <div data-aos='fade-up' className="shadow-md shadow-[#040c16]  bg-gray-800 text-white pt-4 rounded-md hover:scale-110 duration-300 ">

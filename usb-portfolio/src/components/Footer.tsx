@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="bg-white dark:bg-gray-800 text-gray-600 dark:text-gray-400 py-8 select-none">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p>&copy; {new Date().getFullYear()} Oumer Sherif. All rights reserved.</p>
+          <p>Oumer Sherif &copy; {new Date().getFullYear()}. All rights reserved.</p>
           <div className="flex gap-6 text-xl text-purple-600 dark:text-purple-400">
             <a
               href="https://github.com/oumers535"

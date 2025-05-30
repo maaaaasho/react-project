@@ -11,23 +11,15 @@ import pizza from "../assets/projects/pizza.jpeg";
 import WorkIm from "../assets/projects/workImg.jpeg";
 import RealEst from "../assets/projects/realestate.jpg";
 import travel from "../assets/projects/travel1.jpeg";
-// import beaches from "../assets/projects/beaches.jpeg";
+import hasim from "../assets/projects/hasim.jpeg";
 import shopcart from "../assets/projects/shopcart.avif";
 import beach from "../assets/projects/beach.jpeg";
 import shoe from "../assets/projects/s.jpeg";
+import reales from "../assets/projects/reales.jpeg";
+import car from "../assets/projects/car.jpeg";
+import type { Project, Skill } from "../types/types";
 
-interface Skill {
-  id: number;
-  title: string;
-  Image: string;
-}
-interface Project {
-  id: number;
-  name: string;
-  image: string;
-  github: string;
-  live: string;
-}
+
 
 export const skills: Skill[] = [
   {
@@ -80,6 +72,20 @@ export const skills: Skill[] = [
 export const projects: Project[] = [
   {
     id: 1,
+    name: "real-estate",
+    image: reales,
+    github: "https://github.com/oumers535/real-estate.git",
+    live: "https://usb-real-estate.netlify.app/",
+  },
+  {
+    id: 1,
+    name: "car-shop",
+    image: car,
+    github: "https://github.com/oumers535/car-shop.git",
+    live: "https://usb-car-shop.netlify.app/",
+  },
+  {
+    id: 1,
     name: "ሀሁ ገበያ",
     image: shoe,
     github: "https://github.com/oumers535/pizza-order.git",
@@ -117,7 +123,7 @@ export const projects: Project[] = [
   {
     id: 5,
     name: "Hasim Media",
-    image: WorkIm,
+    image: hasim,
     github: "https://github.com/oumers535/hasim-media.git",
     live: "https://hasim-media.netlify.app/",
   },

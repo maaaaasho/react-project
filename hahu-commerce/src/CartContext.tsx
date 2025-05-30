@@ -1,27 +1,9 @@
 import { createContext, useContext, useState} from "react";
 import type { ReactNode } from 'react';
-export type Product = {
-  id: number;
-  name: string;
-  description: string;
-  price: number;
-  image: string;
-};
+import type { CartContextType, CartItem, Product } from "./types/types";
 
-export type CartItem = Product & {
-  quantity: number;
-};
 
-type CartContextType = {
-  cartItems: CartItem[];
-  addToCart: (product: Product) => void;
-  removeFromCart: (id: number) => void;
-  increaseQuantity: (id: number) => void;
-  decreaseQuantity: (id: number) => void;
-  clearCart: () => void;
-};
-
-const CartContext = createContext<CartContextType | undefined>(undefined);
+export const CartContext = createContext<CartContextType | undefined>(undefined);
 
 export const useCart = () => {
   const context = useContext(CartContext);
@@ -31,7 +13,7 @@ export const useCart = () => {
 
 export const CartProvider = ({ children }: { children: ReactNode }) => {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
-
+ const [showCart, setShowCart] = useState<boolean>(false);
   const addToCart = (product: Product) => {
     setCartItems((prev) => {
       const found = prev.find((item) => item.id === product.id);
@@ -71,6 +53,8 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
   return (
     <CartContext.Provider
       value={{
+        showCart,
+        setShowCart,
         cartItems,
         addToCart,
         removeFromCart,

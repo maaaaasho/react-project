@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
-import { useCart, type CartItem as CartItemType} from "../CartContext";
-
+import { useCart} from "../CartContext";
+import { type CartItem as CartItemType } from "../types/types";
 type Props = {
   item: CartItemType;
 };

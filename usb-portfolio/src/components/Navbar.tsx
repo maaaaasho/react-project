@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {FaSun,FaMoon,} from 'react-icons/fa';
 import { IoCloseSharp, IoMenuSharp } from "react-icons/io5";
+import type { NavbarProps } from '../types/types';
 
-interface NavbarProps { 
-  darkMode: boolean;
-   setDarkMode: React.Dispatch<React.SetStateAction<boolean>>; }
 
 
 const Navbar = ({darkMode, setDarkMode}: NavbarProps) => {
-const [menu, setMenu] =useState<boolean>(false);
+const [menu, setMenu] =useState<boolean>(true);
 const toggleMenu = () => {
   setMenu(!menu);
 };

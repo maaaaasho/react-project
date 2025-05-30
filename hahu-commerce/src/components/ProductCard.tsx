@@ -1,6 +1,7 @@
 import React from "react";
 import { FiShoppingCart } from "react-icons/fi";
-import { type Product, useCart } from "../CartContext";
+import { useCart } from "../CartContext";
+import type { Product } from "../types/types";
 
 type Props = {
   product: Product;
