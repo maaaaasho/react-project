@@ -3,7 +3,7 @@ const About = () => {
   return (
     <section id="about" className="pt-4 max-w-4xl mx-auto pb-24">
       <div className="text-center text-white py-16">
-         <h1 className="text-3xl sm:text-4xl  font-bold  mb-16  inline border-b-4 border-pink-600 " data-aos='zoom-in' data-aos-anchor-placement="top-bottom">
+         <h1 data-aos='zoom-in' className="text-3xl sm:text-4xl  font-bold  mb-16  inline border-b-4 border-pink-600 " >
         About Me
       </h1>
       </div>
@@ -17,7 +17,7 @@ const About = () => {
           />
         </div>
         <div data-aos='fade-up'>
-          <p className="text-gray-300 text-lg select-text">
+          <p className="text-gray-300 sm:text-lg font-light select-text">
             I am a passionate frontend developer specializing in <span className="text-gray-400 italic">React, Tailwindcss and
             TypeScript.</span>  I enjoy transforming complex ideas into simple,
             interactive web apps with a focus on usability, performance, and
