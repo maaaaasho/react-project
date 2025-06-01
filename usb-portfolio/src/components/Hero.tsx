@@ -4,9 +4,10 @@ const Hero = () => {
   return (
     <header
       id="hero"
-      className=" container mx-auto px-6 py-48 md:py-64 text-center select-none h-screen"
+      className=" container mx-auto px-6 flex justify-center items-center text-center select-none h-screen"
     >
-      <div>
+      <div className="flex flex-col text-center ">
+       
       <h2
         data-aos="zoom-in"
         className="text-5xl font-extrabold text-white mb-4 leading-tight"
@@ -19,13 +20,14 @@ const Hero = () => {
       >
         Frontend React Developer
       </h3>
-      <div className="flex">
+     
          <p
         data-aos="fade-up"
         className="text-gray-300 max-w-2xl mx-auto text-xl "
       >
-        Making modern, accessible, and performant web applications with {'   '}
-      
+        Making modern, accessible, and performant web applications with</p>
+       
+       
       <ReactTyped
         strings={[
           "React",
@@ -36,28 +38,28 @@ const Hero = () => {
         typeSpeed={140}
         backSpeed={150}      
         loop
-        className="text-gray-400 italic text-xl "
+        className="text-gray-400 italic text-xl py-5"
       
       />
-      </p>
-      </div>
-     
-      </div>
+    
      <div className="mt-6 flex-col sm:flex-row space-y-5 space-x-5 justify-center ">
       <a
         data-aos="fade-up"
         href="#contact"
-        className="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-md transition-colors duration-300"
+        className=" bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-md transition-colors duration-300"
       >
         Get in Touch
       </a>
       <a
         href="certeficates.pdf"
         download
-        className="inline-block border-2 border-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-md transition-colors duration-300"
+        className="border-2 border-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-md transition-colors duration-300"
       >
         Download CV
-      </a></div>
+      </a>
+      </div>
+      
+      </div>
     </header>
   );
 };
