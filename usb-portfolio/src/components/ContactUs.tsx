@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { FaEnvelope, FaGithub, FaLinkedin, FaPhoneAlt, FaTelegram } from 'react-icons/fa';
+
 import SocialLinks from './SocialLinks';
 
 const ContactUs = () => {
