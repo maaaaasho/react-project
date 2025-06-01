@@ -8,23 +8,24 @@ const Hero = () => {
     >
       <div>
       <h2
-        data-aos="fade-up"
+        data-aos="zoom-in"
         className="text-5xl font-extrabold text-white mb-4 leading-tight"
       >
         I'm Oumer Sherif
       </h2>
-      <h2
+      <h3
         data-aos="fade-up "
         className="text-2xl sm:text-5xl font-extrabold text-white mb-4 leading-tight"
       >
         Frontend React Developer
-      </h2>
-      <p
+      </h3>
+      <div className="flex">
+         <p
         data-aos="fade-up"
         className="text-gray-300 max-w-2xl mx-auto text-xl "
       >
-        Making modern, accessible, and performant web applications with
-      </p>
+        Making modern, accessible, and performant web applications with {'   '}
+      
       <ReactTyped
         strings={[
           "React",
@@ -35,9 +36,12 @@ const Hero = () => {
         typeSpeed={140}
         backSpeed={150}      
         loop
-        className="text-white"
+        className="text-gray-400 italic text-xl "
       
       />
+      </p>
+      </div>
+     
       </div>
      <div className="mt-6 flex-col sm:flex-row space-y-5 space-x-5 justify-center ">
       <a

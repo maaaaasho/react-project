@@ -19,21 +19,7 @@ const  App =()=> {
     });
   }, []);
 
-  // const [darkMode, setDarkMode] = useState<boolean>(() => {
-  //   if (typeof window !== "undefined") {
-  //     return localStorage.getItem("theme") === "dark";
-  //   }
-  //   return false;
-  // });
-  // useEffect(() => {
-  //   if (darkMode) {
-  //     document.documentElement.classList.add("dark");
-  //     localStorage.setItem("theme", "dark");
-  //   } else {
-  //     document.documentElement.classList.remove("dark");
-  //     localStorage.setItem("theme", "light");
-  //   }
-  // }, [darkMode]);
+
   return (
     <div className="min-h-screen bg-gray-900 transition-colors duration-500">
       <Navbar />

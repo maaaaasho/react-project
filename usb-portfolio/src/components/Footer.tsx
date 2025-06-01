@@ -1,59 +1,12 @@
+import SocialLinks from "./SocialLinks"
 
-import {
 
-  FaEnvelope,
-  FaPhoneAlt,
-  FaGithub,
-  FaLinkedin,
-  FaTelegram,
-
-} from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-gray-400 py-8 select-none">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p>Oumer Sherif &copy;{new Date().getFullYear()}. All rights reserved.</p>
-          <div className="flex gap-6 text-xl text-purple-400">
-            <a
-              href="https://github.com/oumers535"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-              className="hover:text-purple-300 transition-colors"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://linkedin.com/in/oumersherif"
-              target="_blank"
-              rel="noopener noreferrer"
-          
-              className="hover:text-purple-300 transition-colors"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href="oumers535@gmail.com"
-       
-              className="hover:text-purple-300 transition-colors"
-            >
-            <FaEnvelope />
-            </a>
-            <a
-              href="tel:+251980235008"
-              aria-label="Phone"
-              className="hover:text-purple-300 transition-colors"
-            >
-              <FaPhoneAlt />
-            </a>
-            <a
-              href="https://t.me/usb202"
-          
-              className="hover:text-purple-300 transition-colors"
-            >
-              <FaTelegram />
-            </a>
-          </div>
+          <SocialLinks/>  
         </div>
       </footer>
   )

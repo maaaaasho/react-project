@@ -1,8 +1,8 @@
 
 const About = () => {
   return (
-    <section id="about" className="pt-16 max-w-4xl mx-auto">
-      <h3 className="text-3xl md:ml-80 ml-36 font-bold text-white mb-16  inline border-b-4 border-pink-600" data-aos='zoom-in'>
+    <section id="about" className="py-24 max-w-4xl mx-auto">
+      <h3 className="text-3xl sm:text-4xl  md:ml-80 ml-36 font-bold text-white mb-16  inline border-b-4 border-pink-600" data-aos='zoom-in' data-aos-anchor-placement="top-bottom">
         About Me
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12 ">
