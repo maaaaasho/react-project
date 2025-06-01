@@ -5,9 +5,9 @@ const Projects = () => {
   
 
   return (
-    <div id="projects" className="w-full text-black py-16">
+    <div id="projects" className="w-full  py-16">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full">
-        <div className="pb-8 text-center dark:text-white">
+        <div className="pb-8 text-center text-white">
           <p data-aos='zoom-in' className="text-4xl font-bold inline border-b-4 border-pink-600  ">
             Projects
           </p>

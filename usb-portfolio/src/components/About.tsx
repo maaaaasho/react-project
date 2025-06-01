@@ -2,7 +2,7 @@
 const About = () => {
   return (
     <section id="about" className="pt-16 max-w-4xl mx-auto">
-      <h3 className="text-3xl md:ml-80 ml-36 font-bold text-gray-900 dark:text-white mb-12  inline border-b-4 border-pink-600" data-aos='zoom-in'>
+      <h3 className="text-3xl md:ml-80 ml-36 font-bold text-white mb-16  inline border-b-4 border-pink-600" data-aos='zoom-in'>
         About Me
       </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-12 ">
@@ -14,8 +14,8 @@ const About = () => {
           />
         </div>
         <div data-aos='fade-up'>
-          <p className="text-gray-700 dark:text-gray-300 text-lg select-text">
-            I am a passionate frontend developer specializing in <span className="text-gray-500 italic">React, Tailwindcss and
+          <p className="text-gray-300 text-lg select-text">
+            I am a passionate frontend developer specializing in <span className="text-gray-400 italic">React, Tailwindcss and
             TypeScript.</span>  I enjoy transforming complex ideas into simple,
             interactive web apps with a focus on usability, performance, and
             clean code. Constantly I am fast learning and adapting to new technologies to

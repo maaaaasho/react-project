@@ -7,7 +7,7 @@ const Skills = () => {
     <div id='skills' className='w-full pt-24 '>
       
       <div className='max-w-[1240px] mx-auto p-4 flex flex-col justify-center w-full'>
-          <div className='text-center dark:text-white'>
+          <div className='text-center text-white'>
               <p data-aos='zoom-in' className='text-4xl my-20 font-bold inline border-b-4 border-pink-600 '>Skills</p>
               <p data-aos='zoom-in' className='py-14'> These are the technologies I've worked with</p>
           </div>
